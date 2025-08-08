@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  margin: 15px auto;
+  width: 100%;
+  display: block;
+}
+div{
+  margin: 15px auto;
+  width: 400px;
+  height: 300px;
+  display: block;
+}
+
+.img__opacity{
+  opacity: 0.5;
+}
+.img__opacity:hover{
+  opacity: 1;
+}
+.div__opacity{
+  background: var(--clr);
+  opacity: 0.5;
+}
+.div__opacity:hover{
+  opacity: 1;
+}
+.back__img{
+  padding: 70px 40px;
+  background: url(../images/background.jpeg) no-repeat;
+  background-size: cover;
+}
+.transparent{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  opacity: 0.6;
+  /* background: rgba(255, 255, 255, 0.6) */
+}
+.transparent p{
+  text-align: center;
+  padding: 60px 20px;
+  color: #000000;
+}
