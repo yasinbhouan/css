@@ -1,0 +1,18 @@
+*{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box; /* for padding  */
+}
+div{
+  background: var(--clr);
+  color: #FFFFFF;
+}
+.padding{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+.sort{
+  padding: 50px 30px 40px 50px;
+}
