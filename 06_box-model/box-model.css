@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.margin{
+  margin: 20px auto;
+  border: 1px dashed #bbb;
+  padding: 45px;
+  background: #f1f1f1;
+  width: 410px;
+
+}
+.border{
+  padding: inherit;
+  background: #04AA6D;
+}
+.padding{
+  padding: inherit;
+  background: #f1f1f1;
+}
+.content{
+  padding: inherit;
+  background: #FFFFFF;
+  border: 1px dashed #ccc;
+}
+.text{
+  position: absolute;
+  top: 15px;
+}
+
+.box{
+  width: 320px;
+  padding: 45px;
+  border: 45px solid #04AA6D;
+  margin: 45px auto;
+  background: #FFFFFF;
+}
