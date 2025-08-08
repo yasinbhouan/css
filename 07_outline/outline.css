@@ -1,0 +1,16 @@
+p{
+  padding: 10px 15px;
+}
+.outline{
+  outline-width: 2px;
+  outline-style: solid; /* doesn't support more than one value*/
+  outline-color: #FFFFFF;
+}
+.outline_short{
+  outline: 2px solid #FFFFFF;
+}
+.outline_offset{
+  border: 2px dashed var(--clr);
+  outline-offset: 10px;
+  outline: 2px solid #FFFFFF;
+}
