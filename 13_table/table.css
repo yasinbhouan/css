@@ -1,0 +1,55 @@
+.table1{
+  width: 100%;
+}
+.table1, .table1 th, .table1 td{
+  border: 1px solid #FFFFFF;
+  border-collapse: collapse;
+}
+.table1 th, .table1 td{
+  text-align: left;
+  padding: 10px 15px;
+}
+.table1 td{
+  height: 50px;
+  vertical-align: center;
+}
+
+
+.table2{
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table2 td, .table2 th{
+  border-bottom: 1px solid #FFFFFF;
+  padding: 10px 15px;
+}
+.table2 tr:hover{
+  background: rgba(255, 255, 255, 0.2)
+}
+
+
+.table3 tr:first-child{
+  background: var(--clr);
+  background: linear-gradient(to right, #00A13D, var(--clr));
+  color: #FFFFFF;
+}
+.table3 tr:nth-child(even){
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.scroll__div{
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-top: 40px;
+}
+.scroll{
+  border-collapse: collapse;
+}
+.scroll td, .scroll th{
+  padding: 10px 15px;
+}
+.scroll tr:nth-child(even){
+  background: rgba(255, 255, 255, 0.2)
+}
