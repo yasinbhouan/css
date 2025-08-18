@@ -9,7 +9,7 @@ div{
   padding: 20px 25px;
   border: 2px solid #2C2C2C;
   margin: 50px 10px;
-  background: #1f1f1f;
+  background: #3a3a3a;
 }
 .inline{
   display: inline;
@@ -28,7 +28,7 @@ ul{
   text-align: center;
 }
 li{
-  background: #1F1F1F;
+  background: #3a3a3a;
   padding: 15px 20px;
   display: inline-block;
 }

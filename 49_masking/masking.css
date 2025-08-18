@@ -12,6 +12,7 @@ img{
   mask-image: url(./img/mask.png);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+  mask-size: cover;
 }
 
 /* for gradient */

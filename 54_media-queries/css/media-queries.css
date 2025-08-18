@@ -7,8 +7,8 @@
 [class^="column_"]{
   width: 100%;
   height: 100px;
-  background: #333;
-  border: 5px solid #000;
+  background: #505050;
+  border: 5px solid #000000;
 }
 
 /* column float */
@@ -66,8 +66,5 @@
   }
   .column_flex{
     flex: 25%;
-  }
-  [class^="column_"]{
-    border: 5px solid #131938;
   }
 }
